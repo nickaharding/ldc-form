@@ -1,0 +1,12 @@
+input, select, textarea {
+  width: 100%;
+  resize: none;
+}
+
+textarea {
+  height: 200px;
+}
+
+hr {
+  margin: 1rem 0 1rem 0;
+}

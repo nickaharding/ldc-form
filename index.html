@@ -1,1 +1,167 @@
-<h1>Goodbye</h1>
+<html>
+<head>
+<link rel="stylesheet" href="https://unpkg.com/purecss@0.6.2/build/pure-min.css">
+<link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="pure-g">
+    <div class="pure-u-1-4"></div>
+    <div class="pure-u-1-2">
+      <h1>Life Design Committee - Weekly Form. </h1>
+      <form class="pure-form pure-form-stacked">
+        <fieldset>
+          <legend>Please complete each week</legend>
+          <label for="author">Who are you?</label>
+          <select id="author" name="author">
+                <option>Dave</option>
+                <option>Emma</option>
+                <option>Nick</option>
+            </select>
+          <hr />
+          <label for="why-grateful">What are you grateful for at the moment?</label>
+          <textarea name="why-grateful" placeholder="I am grateful because . . . "></textarea>
+          <hr />
+          <label for="3ThingsHappy">Note three things you were happy with this week:</label>
+          <textarea name="3ThingsHappy1" placeholder="Thing 1. . ."></textarea>
+          <textarea name="3ThingsHappy2" placeholder="Thing 2. . ."></textarea>
+          <textarea name="3ThingsHappy3" placeholder="Thing 3. . ."></textarea>
+          <hr />
+          <label for="3ThingsUnhappy">Note three things you were unhappy with this week:</label>
+          <textarea name="3ThingsUnhappy1" placeholder="Thing 1. . ."></textarea>
+          <textarea name="3ThingsUnhappy2" placeholder="Thing 2. . ."></textarea>
+          <textarea name="3ThingsUnhappy3" placeholder="Thing 3. . ."></textarea>
+          <hr />
+          <label for="3Improvements">Suggest things you could do to overcome the three things you were unhappy with:</label>
+          <textarea name="3Improvements1" placeholder="Improvement 1. . ."></textarea>
+          <textarea name="3Improvements2" placeholder="Improvement 2. . ."></textarea>
+          <textarea name="3Improvements3" placeholder="Improvement 3. . ."></textarea>
+          <hr />
+          <p>Rate the following attributes of your week out of 100, and add any comments:</p>
+          <table class="pure-table">
+            <thead>
+              <tr>
+                <td>
+                  Attribute
+                </td>
+                <td>
+                  Score
+                </td>
+                <td>
+                  Comments
+                </td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <label for="health">Health</label>
+                </td>
+                <td>
+                  <input id="health" name="health" placeholder="0-100">
+                </td>
+                <td>
+                  <input id="health" name="health" placeholder="Notes">
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <label for="finances">Finances</label>
+                </td>
+                <td>
+                  <input id="finances" name="finances" placeholder="0-100">
+                </td>
+                <td>
+                  <input id="finances" name="finances" placeholder="Notes">
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <label for="work-you">Work (you want to do)</label>
+                </td>
+                <td>
+                  <input id="work-you" name="work-you" placeholder="0-100">
+                </td>
+                <td>
+                  <input id="work-you" name="work-you" placeholder="Notes">
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <label for="work-others">Work (for others)</label>
+                </td>
+                <td>
+                  <input id="work-others" name="work-others" placeholder="0-100">
+                </td>
+                <td>
+                  <input id="work-others" name="work-others" placeholder="Notes">
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <label for="experience">Experience</label>
+                </td>
+                <td>
+                  <input id="experience" name="experience" placeholder="0-100">
+                </td>
+                <td>
+                  <input id="experience" name="experience" placeholder="Notes">
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <label for="impact">Impact on Others</label>
+                </td>
+                <td>
+                  <input id="impact" name="impact" placeholder="0-100">
+                </td>
+                <td>
+                  <input id="impact" name="impact" placeholder="Notes">
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <label for="personal-development">Personal Development</label>
+                </td>
+                <td>
+                  <input id="personal-development" name="personal-development" placeholder="0-100">
+                </td>
+                <td>
+                  <input id="personal-development" name="personal-development" placeholder="Notes">
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <label for="relationships">Relationships</label>
+                </td>
+                <td>
+                  <input id="relationships" name="relationships" placeholder="0-100">
+                </td>
+                <td>
+                  <input id="relationships" name="relationships" placeholder="Notes">
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <hr />
+          <label for="previous-target-feedback">Enter feedback on the 3 targets you set last week. Did you complete them? If not, why not? If you did, what improvements resulted/what changed?:</label>
+          <textarea name="previous-target-1" placeholder="Previous Target 1. . ."></textarea>
+          <textarea name="previous-target-2" placeholder="Previous Target 2. . ."></textarea>
+          <textarea name="previous-target-3" placeholder="Previous Target 3. . ."></textarea>
+          <!- It would be great if last week's targets could be pull in from the previous week's form, and displayed in the 3 placeholders above! ->
+          <hr />
+          <label for="new-targets">Enter 3 new targets you can impliment this week to improve your life!:</label>
+          <textarea name="new-target-1" placeholder="Target 1. . ."></textarea>
+          <textarea name="new-target-2" placeholder="Target 2. . ."></textarea>
+          <textarea name="new-target-3" placeholder="Target 3. . ."></textarea>
+          <hr />
+          <label for="other-thoughts">Write down anything else you've been thinking about and what to discuss - general topics, business ideas you've had, tips you've found helpful:</label>
+          <textarea name="other-thoughts" placeholder="Other thoughts. . ."></textarea>
+          <hr />
+          <button type="submit" class="pure-button pure-button-primary">Submit</button>
+        </fieldset>
+      </form>
+    </div>
+    <div class="pure-u-1-4"></div>
+  </div>
+</body>
+</html>
